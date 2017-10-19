@@ -35,7 +35,7 @@ module.exports = {
         filename: 'index.js'
     },
     plugins: [
-        new DtsPlugin({
+        new DtsWebpackBundler({
 			libName: 'library-name',
 			typingsDir: path.resolve(process.cwd(), 'typings'),
 			outputDir: path.resolve(process.cwd(), 'build'),
