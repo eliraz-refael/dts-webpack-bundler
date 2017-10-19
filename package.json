@@ -1,0 +1,30 @@
+{
+  "name": "dts-webpack-bundler",
+  "version": "1.0.0",
+  "description": "Bundler for your ts / tsx files that actually works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliraz-refael/dts-webpack-bundler.git"
+  },
+  "keywords": [
+    "dts",
+    "defenition-files",
+    "typscript",
+    "webpack",
+    "bundler"
+  ],
+  "author": "Eliraz Kedmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliraz-refael/dts-webpack-bundler/issues"
+  },
+  "homepage": "https://github.com/eliraz-refael/dts-webpack-bundler#readme",
+  "dependencies": {
+    "dts-bundle": "^0.7.3",
+    "rimraf": "^2.6.2"
+  }
+}
