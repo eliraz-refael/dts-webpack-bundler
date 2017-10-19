@@ -11,7 +11,7 @@ $ npm install dts-webpack-bundler --save-dev
 ### Usage
 
 ##### First you need to add the following to tsconfig.json:
-### NOTE: currently this plugin support only declaration files that are gathered into a single folder so, please make sure your having using `"declarationDir"` properly.
+#### NOTE: currently this plugin support only declaration files that are gathered into a single folder so, please make sure you're using `"declarationDir"` properly.
 
 ```javascript
 {
