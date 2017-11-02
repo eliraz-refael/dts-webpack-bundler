@@ -2,6 +2,8 @@
 
 This Webpack plugin generate a single TypeScript *.d.ts declaration file per entry (per chunk) using [dts-bundle](https://github.com/TypeStrong/dts-bundle).
 
+*Currently supporting only webpack v3.x*
+
 ### Installation
 
 ```shell
